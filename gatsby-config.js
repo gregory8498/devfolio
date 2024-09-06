@@ -42,17 +42,17 @@ module.exports = {
       {
         name: 'US Navy',
         description: 'Submarine Officer, September 2022  - Present',
-        //link: 'https://github.com/RyanFitzgerald/devfolio',
+        link: 'https://github.com/RyanFitzgerald/devfolio',
       },
       {
         name: 'Massachusett\s Institute of Technology',
         description: 'Graduate Student, May 2020 - Sep 2022',
-        //link: 'https://github.com/RyanFitzgerald/devfolio',
+        link: 'https://github.com/RyanFitzgerald/devfolio',
       },
       {
         name: 'Wood\s Hole Oceanographic Institution',
         description: 'Graduate Student, May 2020 - Sep 2022',
-        //link: 'https://github.com/RyanFitzgerald/devfolio',
+        link: 'https://github.com/RyanFitzgerald/devfolio',
       },
     ],
     // Optional: List your skills, they must have `name` and `description`.
