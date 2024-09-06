@@ -1,23 +1,29 @@
 module.exports = {
   siteMetadata: {
     // Site URL for when it goes live
-    siteUrl: `https://elastic-meninsky-aa7c74.netlify.app/`,
+    siteUrl: `https://gregoryaburgess.com`,
     // Your Name
-    name: 'Ryan Fitzgerald',
+    name: 'Gregory A. Burgess',
     // Main Site Title
-    title: `Ryan Fitzgerald | Full-Stack Developer`,
+    title: `Gregory A. Burgess | Nuclear Submarine Officer`,
     // Description that goes under your name in main bio
-    description: `Lorem ipsum dolor sit amet consectetur adipisicing elit, ipsum.`,
+    description: `Naval Officer currently stationed on the USS Charlotte (SSN 766) in Pearl Harbor, HI.`,
     // Optional: Twitter account handle
-    author: `@rfitzio`,
+    author: `@gregburgess84`,
     // Optional: Github account URL
-    github: `https://github.com/ryanfitzgerald`,
+    github: `https://github.com/gregory8498`,
     // Optional: LinkedIn account URL
-    linkedin: `https://www.linkedin.com/in/ryanafitzgerald/`,
+    linkedin: `https://www.linkedin.com/in/gregory-burgess/`,
     // Content of the About Me section
-    about: `Lorem ipsum dolor sit amet consectetur adipisicing elit. Ducimus perferendis porro cumque ea error ab voluptatem. Temporibus adipisci exercitationem similique itaque quibusdam laudantium, qui molestiae quas, aut amet animi id.`,
+    about: `LT in the US Navy currently assigned to the USS Charlotte (SSN 766) in Pearl Harbor HI.  Studied Robotics and Controls Engineering at the US Naval Academy and commissioned as a Submarine Warfare Officer in 2020. Studied Applied Ocean Science and Engineering in the MIT-WHOI Joint Program.`,
     // Optional: List your projects, they must have `name` and `description`. `link` is optional.
     projects: [
+      {
+        name: 'Mia Kalt\'s Boyfriend',
+        description:
+          'An extremely important duty dedicated to the most lovely human being on the planet',
+        link: 'https://www.miakalt.com/',
+      },
       {
         name: 'Devfolio',
         description:
@@ -30,29 +36,23 @@ module.exports = {
           'Kit to jump-start your Chrome extension projects with a variety of battle-tested starter templates',
         link: 'https://chromeextensionkit.com/?ref=devfolio',
       },
-      {
-        name: 'Another Cool Project',
-        description:
-          'Lorem ipsum dolor sit amet consectetur adipisicing elit ducimus perferendis',
-        link: 'https://github.com/RyanFitzgerald/devfolio',
-      },
     ],
     // Optional: List your experience, they must have `name` and `description`. `link` is optional.
     experience: [
       {
-        name: 'Acme Corp',
-        description: 'Full-Stack Developer, February 2020 - Present',
-        link: 'https://github.com/RyanFitzgerald/devfolio',
+        name: 'US Navy',
+        description: 'Submarine Officer, September 2022  - Present',
+        //link: 'https://github.com/RyanFitzgerald/devfolio',
       },
       {
-        name: 'Globex Corp',
-        description: 'Full-Stack Developer, December 2017 - February 2020',
-        link: 'https://github.com/RyanFitzgerald/devfolio',
+        name: 'Massachusett\s Institute of Technology',
+        description: 'Graduate Student, May 2020 - Sep 2022',
+        //link: 'https://github.com/RyanFitzgerald/devfolio',
       },
       {
-        name: 'Hooli',
-        description: 'Full-Stack Developer, May 2015 - December 2017',
-        link: 'https://github.com/RyanFitzgerald/devfolio',
+        name: 'Wood\s Hole Oceanographic Institution',
+        description: 'Graduate Student, May 2020 - Sep 2022',
+        //link: 'https://github.com/RyanFitzgerald/devfolio',
       },
     ],
     // Optional: List your skills, they must have `name` and `description`.
