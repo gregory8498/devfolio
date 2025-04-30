@@ -5,17 +5,22 @@ module.exports = {
     // Your Name
     name: 'Gregory A. Burgess',
     // Main Site Title
-    title: `Gregory A. Burgess | Nuclear Submarine Officer`,
+    title: `Gregory A. Burgess | Submarine Officer`,
     // Description that goes under your name in main bio
-    description: `Naval Officer currently stationed on the USS Charlotte (SSN 766) in Pearl Harbor, HI.`,
+    description: `LT in the US Navy currently assigned to the USS Charlotte (SSN 766) in Pearl Harbor HI. 
+                  Studied Robotics and Controls Engineering at the US Naval Academy and commissioned as a Submarine Warfare 
+                  Officer in 2020. Studied Applied Ocean Science and Engineering in the MIT-WHOI Joint Program.`,
     // Optional: Twitter account handle
-    author: `@gregburgess84`,
+    //author: `@rfitzio`,
     // Optional: Github account URL
     github: `https://github.com/gregory8498`,
     // Optional: LinkedIn account URL
     linkedin: `https://www.linkedin.com/in/gregory-burgess/`,
     // Content of the About Me section
-    about: `LT in the US Navy currently assigned to the USS Charlotte (SSN 766) in Pearl Harbor HI.  Studied Robotics and Controls Engineering at the US Naval Academy and commissioned as a Submarine Warfare Officer in 2020. Studied Applied Ocean Science and Engineering in the MIT-WHOI Joint Program.`,
+    about: `Gregory Burgess (LT) received the M.S. in Mechanical Engineering from the Massachusetts Institute of Technology and 
+            Woods Hole Oceanographic Institution in 2022. LT Burgess also received his B.S. in Robotics and Control Science Engineering at 
+            the United States Naval Academy in 2020. He is currently serving as a Submarine Officer in Pearl Harbor, HI. His research 
+            focuses on improving the sensing and navigational capabilities of autonomous underwater vehicles. `,
     // Optional: List your projects, they must have `name` and `description`. `link` is optional.
     projects: [
       {
