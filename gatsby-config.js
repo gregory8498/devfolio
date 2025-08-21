@@ -8,7 +8,7 @@ module.exports = {
     title: `Gregory A. Burgess | Submarine Officer`,
     // Description that goes under your name in main bio
     description: `LT in the US Navy currently assigned to the USS Charlotte (SSN 766) in Pearl Harbor HI. 
-                  Studied Robotics and Controls Engineering at the US Naval Academy and commissioned as a Submarine Warfare 
+                  Studied Robotics and Controls Science Engineering at the United States Naval Academy and commissioned as a Submarine Warfare 
                   Officer in 2020. Studied Applied Ocean Science and Engineering in the MIT-WHOI Joint Program.`,
     // Optional: Twitter account handle
     //author: `@rfitzio`,
@@ -16,48 +16,43 @@ module.exports = {
     github: `https://github.com/gregory8498`,
     // Optional: LinkedIn account URL
     linkedin: `https://www.linkedin.com/in/gregory-burgess/`,
+    // Optional: CV PDF URL (place the PDF in the `static/` folder to serve at the site root)
+    cv: `/cv.pdf`,
     // Content of the About Me section
-    about: `Gregory Burgess (LT) received the M.S. in Mechanical Engineering from the Massachusetts Institute of Technology and 
-            Woods Hole Oceanographic Institution in 2022. LT Burgess also received his B.S. in Robotics and Control Science Engineering at 
+    about: `Gregory A. Burgess (LT) received the M.S. in Mechanical Engineering from the Massachusetts Institute of Technology and 
+            Woods Hole Oceanographic Institution in 2022. LT Burgess also received his B.S. in Robotics and Controls Science Engineering at 
             the United States Naval Academy in 2020. He is currently serving as a Submarine Officer in Pearl Harbor, HI. His research 
             focuses on improving the sensing and navigational capabilities of autonomous underwater vehicles. `,
     // Optional: List your projects, they must have `name` and `description`. `link` is optional.
     projects: [
       {
-        name: 'Mia Kalt\'s Boyfriend',
-        description:
-          'An extremely important duty dedicated to the most lovely human being on the planet',
-        link: 'https://www.miakalt.com/',
+        name: 'An Autonomous Underwater Glider with Improved Onboard Navigation for Unattended Mapping',
+        description: 'Georeferenced subsurface survey is primarily conducted by autonomous underwater vehicles and remotely operated vehicles that require power-intensive navigation suites, acoustic beacons, and surface support vessels with attendant operations teams onboard. The significant infrastructure required to operate vehicles conducting surveys in remote regions (e.g., under ice) poses increased challenges and remains prohibitively costly, leading to sparse coverage. Unattended operations using autonomous underwater gliders (AUGs) with low power, high-resolution onboard navigation holds promise in scaling up coverage while significantly reducing the operational costs of georeferenced surveys. In this article, we present a modified AUG equipped with a low power embedded navigation process and results of unattended sonar acoustic surveys using this experimental platform.',
+        link: 'https://ieeexplore.ieee.org/document/10980064',
       },
       {
-        name: 'Devfolio',
+        name: 'An Autonomous Underwater Glider With Improved Transport Efficiency',
         description:
-          'A zero-config and blazing fast personal site + blog built with GatsbyJs and TailwindCSS',
-        link: 'https://github.com/RyanFitzgerald/devfolio',
-      },
-      {
-        name: 'ExtensionKit',
-        description:
-          'Kit to jump-start your Chrome extension projects with a variety of battle-tested starter templates',
-        link: 'https://extensionkit.io/?ref=devfolio',
+          'In this article, we present the design and test results of an autonomous underwater glider: Enhanced Propulsion Integrated Capability—Deep Autonomous Underwater Glider. This modified Slocum glider uses redesigned lifting surfaces and hybrid propulsion that are optimized for efficient operation in confined depth bands, deep water profiling, and adverse currents. Modeling suggests a maximum through-water velocity approaching 2 m/s and a theoretical maximum range up to 7000 km when equipped with a commercially available Li-ion rechargeable battery pack. Results indicate more than 30% improvement in glide efficiency and demonstrate the ability of this vehicle to operate equally well within ice-covered coastal regions and the deep ocean. These capabilities, combined with an improved navigation process, permit long-range and shore-launched missions with energy-intensive payloads.',
+        link: 'https://ieeexplore.ieee.org/document/11072729',
       },
     ],
     // Optional: List your experience, they must have `name` and `description`. `link` is optional.
     experience: [
       {
-        name: 'US Navy',
-        description: 'Submarine Officer, September 2022  - Present',
-        link: 'https://github.com/RyanFitzgerald/devfolio',
+        name: 'Naval Officer, LT',
+        description: 'Submarine Officer, USS Charlotte (SSN 766), Pearl Harbor, HI, September 2022  - Present',
+        link: 'https://www.linkedin.com/in/gregory-burgess/',
       },
       {
         name: 'Massachusett\s Institute of Technology',
         description: 'Graduate Student, May 2020 - Sep 2022',
-        link: 'https://github.com/RyanFitzgerald/devfolio',
+        link: 'https://www.linkedin.com/in/gregory-burgess/',
       },
       {
         name: 'Wood\s Hole Oceanographic Institution',
         description: 'Graduate Student, May 2020 - Sep 2022',
-        link: 'https://github.com/RyanFitzgerald/devfolio',
+        link: 'https://www.linkedin.com/in/gregory-burgess/',
       },
     ],
     // Optional: List your skills, they must have `name` and `description`.
